@@ -44,6 +44,6 @@ public class Mitarbeiter {
 
     public void startsWork() {
         System.out.println("Meine Arbeitszeit beginnt um 8 Uhr!");
-   
+    }
    
 }

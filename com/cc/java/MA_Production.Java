@@ -7,5 +7,6 @@ public class MA_Production extends Mitarbeiter {
     }
 
     public void doYourWork(){
-        System.out.println("I am working for real!")
-    };
+        System.out.println("I am working for real!");
+    }
+}

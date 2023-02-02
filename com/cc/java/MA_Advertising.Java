@@ -10,3 +10,4 @@ public class MA_Advertising extends Mitarbeiter {
     public static void doYourWork(){
         System.out.println("I do the ads!");
     }
+}
