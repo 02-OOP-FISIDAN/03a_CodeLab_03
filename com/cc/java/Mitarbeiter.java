@@ -7,8 +7,7 @@ public class Mitarbeiter {
     public String workID;
     public String department;
     public String role;
-   
-     
+
     public Mitarbeiter(String name, String firstName, int birthYear, String workID, String department, String role) {
         this.name = name;
         this.firstName = firstName;
@@ -21,15 +20,19 @@ public class Mitarbeiter {
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public String getFirstName() {
         return firstName;
     }
+
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
     public int getBirthYear() {
         return birthYear;
     }
@@ -39,11 +42,11 @@ public class Mitarbeiter {
     }
 
     public void hasLunch() {
-    System.out.println("Ich bin zur Mittagspause!");
+        System.out.println("Pause von 12.00-12.30 Uhr");
     }
 
     public void startsWork() {
-        System.out.println("Meine Arbeitszeit beginnt um 8 Uhr!");
+        System.out.println("Arbeitszeit beginnt um 8 Uhr!");
+
     }
-   
 }
